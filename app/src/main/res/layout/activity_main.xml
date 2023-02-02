@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="menu1"
+            android:id="@+id/menu1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="menu2"
+            android:id="@+id/menu2"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="menu3"
+            android:id="@+id/menu3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="menu4"
+            android:id="@+id/menu4"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="menu5"
+            android:id="@+id/menu5"/>
+
+    </LinearLayout>
+
+    <com.viewpagerindicator.UnderlinePageIndicator
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#20ff0000"
+        app:selectedColor="#00f"
+        android:id="@+id/under_indicator"/>
+
+    <!-- app:radius - 원의 지름
+         app:fillColor - 선택된 색
+         app:pageColor - 선택 전 색
+         app:strokeColor - 테두리 색
+         app:strokeWidth - 테두리의 두께
+         app:snap - 원이 움직이는 애니메이션 (true 시 없어짐) -->
+    <com.viewpagerindicator.CirclePageIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/circle_indicator"
+        android:padding="10dp"
+        android:background="#aac"
+        app:radius="5dp"
+        app:fillColor="#f00"
+        app:pageColor="#000"
+        app:strokeColor="#fff"
+        app:strokeWidth="2dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pager"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
