@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- String[] study = { "java", "jsp", "spring" } -->
+    <string-array name="study">
+        <item>java</item>
+        <item>android</item>
+        <item>jsp</item>
+        <item>spring</item>
+    </string-array>
+
+    <string-array name="car">
+        <item>car1</item>
+        <item>car2</item>
+        <item>car3</item>
+        <item>car4</item>
+        <item>car5</item>
+        <item>car6</item>
+        <item>car7</item>
+        <item>car8</item>
+        <item>car9</item>
+        <item>car10</item>
+        <item>car11</item>
+        <item>car12</item>
+        <item>car13</item>
+        <item>car14</item>
+        <item>car15</item>
+        <item>car16</item>
+        <item>car17</item>
+        <item>car18</item>
+        <item>car19</item>
+        <item>car20</item>
+    </string-array>
+
+    <string-array name="bt">
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+</resources>
